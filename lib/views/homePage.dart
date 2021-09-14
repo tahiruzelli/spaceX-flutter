@@ -139,14 +139,12 @@ class _HomePage extends State<HomePage> {
                   const SizedBox(height: 15),
                   CustomTextButton(
                     'Wikipedia',
-                    'https://www.youtube.com/watch?v=' +
-                        lastFlyDatas['links']['wikipedia'],
+                    lastFlyDatas['links']['wikipedia'],
                   ),
                   const SizedBox(height: 15),
                   CustomTextButton(
                     'Reddit Campaign',
-                    'https://www.youtube.com/watch?v=' +
-                        lastFlyDatas['links']['reddit']['campaign'],
+                    lastFlyDatas['links']['reddit']['campaign'],
                   ),
                 ],
               );
